@@ -1,0 +1,72 @@
+body {‎
+‎    font-family: Arial, sans-serif;‎
+‎    margin: 0;‎
+‎    background-color: #f4f6f8;‎
+‎    color: #333;‎
+‎}‎
+
+header {‎
+‎    background-color: #1f3c88;‎
+‎    color: white;‎
+‎    padding: 40px 20px;‎
+‎    text-align: center;‎
+‎}‎
+
+nav {‎
+‎    background-color: #162447;‎
+‎    padding: 10px;‎
+‎    text-align: center;‎
+‎}‎
+
+nav a {‎
+‎    color: white;‎
+‎    margin: 0 15px;‎
+‎    text-decoration: none;‎
+‎    font-weight: bold;‎
+‎}‎
+
+nav a:hover {‎
+‎    text-decoration: underline;‎
+‎}‎
+
+section {‎
+‎    padding: 40px 20px;‎
+‎    max-width: 900px;‎
+‎    margin: auto;‎
+‎    background: white;‎
+‎    margin-top: 20px;‎
+‎    border-radius: 8px;‎
+‎}‎
+
+h2 {‎
+‎    color: #1f3c88;‎
+‎}‎
+
+‎.skills li {‎
+‎    display: inline-block;‎
+‎    background: #e0e7ff;‎
+‎    padding: 8px 12px;‎
+‎    margin: 5px;‎
+‎    border-radius: 5px;‎
+‎}‎
+
+‎.button {‎
+‎    display: inline-block;‎
+‎    margin-top: 15px;‎
+‎    padding: 10px 20px;‎
+‎    background-color: #1f3c88;‎
+‎    color: white;‎
+‎    text-decoration: none;‎
+‎    border-radius: 5px;‎
+‎}‎
+
+‎.button:hover {‎
+‎    background-color: #162447;‎
+‎}‎
+
+footer {‎
+‎    text-align: center;‎
+‎    padding: 20px;‎
+‎    background: #ddd;‎
+‎    margin-top: 40px;‎
+‎}‎
