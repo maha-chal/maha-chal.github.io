@@ -120,3 +120,43 @@ p {
     font-size: 16px;
 }
 ‎
+.cv-container {
+    display: flex;
+    gap: 40px;
+}
+
+.cv-left {
+    flex: 2;
+}
+
+.cv-right {
+    flex: 1;
+    background: #f8f9fc;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.cv-item {
+    margin-bottom: 25px;
+}
+
+.cv-item h4 {
+    margin: 0;
+    color: #1f3c88;
+}
+
+.cv-item span {
+    font-size: 14px;
+    color: #666;
+}
+
+.cv-item p {
+    margin-top: 8px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .cv-container {
+        flex-direction: column;
+    }
+}
