@@ -285,3 +285,23 @@ p {
     transform: translateY(-6px);
     box-shadow: 0 12px 28px rgba(0,0,0,0.08);
 }
+
+/* ===== Sticky Navigation ===== */
+
+#navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #162447;
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+/* Shadow appears when scrolling */
+#navbar.scrolled {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Smooth anchor scrolling */
+html {
+    scroll-behavior: smooth;
+}
