@@ -215,3 +215,32 @@ p {
         font-size: 18px;
     }
 }
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+}
+
+.project-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+
+.project-card h3 {
+    margin-top: 0;
+    color: #1f3c88;
+}
+
+.project-card span {
+    font-size: 14px;
+    color: #666;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    line-height: 1.6;
+}
