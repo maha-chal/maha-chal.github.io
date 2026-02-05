@@ -66,3 +66,18 @@ const setActiveLink = () => {
 
 window.addEventListener("scroll", setActiveLink);
 window.addEventListener("load", setActiveLink);
+
+// ===== Mobile hamburger toggle =====
+const hamburger = document.getElementById("hamburger");
+const navLinksContainer = document.getElementById("navLinks");
+
+hamburger.addEventListener("click", () => {
+    navLinksContainer.classList.toggle("open");
+});
+
+// Close menu when clicking a link (mobile)
+document.querySelectorAll(".nav-link").forEach(link => {
+    link.addEventListener("click", () => {
+        navLinksContainer.classList.remove("open");
+    });
+});
