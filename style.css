@@ -322,9 +322,11 @@ html {
 /* ===== Active Navigation Link ===== */
 
 .nav-link {
-    position: relative;
-    padding: 0.5rem 0;
-    transition: color 0.3s ease;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+#navbar.scrolled .nav-link {
+    transform: scale(0.95);
 }
 
 .nav-link.active {
