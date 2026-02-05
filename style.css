@@ -288,12 +288,25 @@ p {
 
 /* ===== Sticky Navigation ===== */
 
+/* ===== Sticky + Shrinking Navigation ===== */
+
 #navbar {
     position: sticky;
     top: 0;
     z-index: 1000;
     background-color: #162447;
-    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+
+    padding: 1.2rem 2rem;          /* normal size */
+    transition:
+        padding 0.3s ease,
+        box-shadow 0.3s ease,
+        background-color 0.3s ease;
+}
+
+/* Shrunk state */
+#navbar.scrolled {
+    padding: 0.6rem 2rem;          /* smaller on scroll */
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
 }
 
 /* Shadow appears when scrolling */
