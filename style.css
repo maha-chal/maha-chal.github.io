@@ -164,7 +164,7 @@ p {
 .hero {
     background: linear-gradient(135deg, #1f3c88, #162447);
     color: white;
-    padding: 48px 20px;
+    padding: 48px 20px;          /* ↓ narrower */
     text-align: center;
 }
 
@@ -174,41 +174,30 @@ p {
 }
 
 .hero h1 {
-    font-size: 48px;
-    margin-bottom: 10px;
+    font-size: 44px;             /* slightly reduced */
+    margin-bottom: 8px;          /* tighter */
 }
 
 .hero h2 {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: normal;
-    margin-bottom: 20px;
+    margin-bottom: 16px;         /* tighter */
     color: #dbe4ff;
 }
 
 .hero p {
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 30px;
+    font-size: 17px;
+    line-height: 1.55;
+    margin-bottom: 24px;         /* tighter */
 }
-
-.hero-buttons .button {
-    margin: 0 10px;
-}
-
-.button.secondary {
-    background-color: transparent;
-    border: 2px solid white;
-}
-
-.button.secondary:hover {
-    background-color: white;
-    color: #162447;
-}
-
 /* Responsive */
 @media (max-width: 768px) {
+    .hero {
+        padding: 36px 16px;
+    }
+
     .hero h1 {
-        font-size: 36px;
+        font-size: 32px;
     }
 
     .hero h2 {
