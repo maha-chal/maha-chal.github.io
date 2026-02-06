@@ -404,12 +404,12 @@ html {
 }
 
 #contact h2 {
-    margin-bottom: 12px;
+    margin-bottom: 8px;
 }
 
 #contact p {
-    margin-bottom: 8px;
-    line-height: 1.4;
+     margin: 4px 0;
+    line-height: 1.35;
 }
 
 #contact *:last-child {
@@ -435,3 +435,16 @@ html {
 #navbar .nav-link.active {
     color: #fca311 !important;
 }
+
+/* ===== Make Contact section compact ===== */
+
+section#contact {
+    padding: 16px 20px;      /* much smaller */
+    margin-top: 0;           /* remove extra gap */
+    background: transparent; /* remove white card */
+    box-shadow: none;
+    border-radius: 0;
+    max-width: 900px;        /* keep alignment */
+}
+
+
