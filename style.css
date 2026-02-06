@@ -68,7 +68,7 @@ footer {‎
 ‎    text-align: center;‎
 ‎    padding: 20px;‎
 ‎    background: #ddd;‎
-‎    margin-top: 40px;‎
+‎    margin-top: 20px;‎
 ‎}
 
 .about-container {
@@ -412,4 +412,15 @@ html {
 
 #contact *:last-child {
     margin-bottom: 0;
+}
+
+/* ===== Fix oversized Contact section ===== */
+
+#contact {
+    padding: 20px 20px;        /* slim */
+    margin-top: 0;             /* remove section gap */
+    background: transparent;   /* no card look */
+    box-shadow: none;          /* remove card shadow */
+    border-radius: 0;
+    max-width: none;           /* full width */
 }
