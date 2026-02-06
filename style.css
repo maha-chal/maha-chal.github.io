@@ -27,7 +27,15 @@ nav a {‎
 
 nav a:hover {‎
 ‎    text-decoration: underline;‎
-‎}‎
+‎}
+
+#navbar .nav-link {
+    color: white;
+    text-decoration: none;
+}
+#navbar .nav-link:hover {
+    color: #dbe4ff;
+}‎
 
 section {‎
 ‎    padding: 40px 20px;‎
