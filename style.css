@@ -393,3 +393,22 @@ html {
         border-top: 1px solid rgba(255,255,255,0.1);
     }
 }
+
+#contact {
+    background-color: #f7f9fc;   /* subtle contrast */
+    font-size: 15px;
+}
+
+#contact h2 {
+    margin-bottom: 12px;
+}
+
+#contact p {
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+#contact *:last-child {
+    margin-bottom: 0;
+}
+
