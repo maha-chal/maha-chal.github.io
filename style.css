@@ -394,11 +394,14 @@ html {
     }
 }
 
+
 #contact {
-    padding: 24px 20px;
-    min-height: auto;
-    display: block;
-    background-color: #f7f9fc;
+    padding: 20px 20px;        /* slim */
+    margin-top: 0;             /* remove section gap */
+    background: transparent;   /* no card look */
+    box-shadow: none;          /* remove card shadow */
+    border-radius: 0;
+    max-width: none;           /* full width */
 }
 
 #contact h2 {
@@ -415,12 +418,3 @@ html {
 }
 
 /* ===== Fix oversized Contact section ===== */
-
-#contact {
-    padding: 20px 20px;        /* slim */
-    margin-top: 0;             /* remove section gap */
-    background: transparent;   /* no card look */
-    box-shadow: none;          /* remove card shadow */
-    border-radius: 0;
-    max-width: none;           /* full width */
-}
