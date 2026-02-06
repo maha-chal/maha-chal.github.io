@@ -395,8 +395,10 @@ html {
 }
 
 #contact {
-    background-color: #f7f9fc;   /* subtle contrast */
-    font-size: 15px;
+    padding: 24px 20px;
+    min-height: auto;
+    display: block;
+    background-color: #f7f9fc;
 }
 
 #contact h2 {
@@ -411,4 +413,3 @@ html {
 #contact *:last-child {
     margin-bottom: 0;
 }
-
